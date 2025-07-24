@@ -1,12 +1,26 @@
-# React + Vite
+# 📝 Mega Complex Blog Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-featured, responsive **blogging platform** built using **React.js**, **Redux**, and **Appwrite** for authentication and backend. This project demonstrates modern React architecture with modular components, route handling, user auth, and state management.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔐 **Authentication**: Signup, login, logout using Appwrite
+- 🧠 **Redux Integration**: State management for user auth
+- 💡 **Dynamic Routing**: Handles routes with `react-router-dom`
+- 📦 **Component Reusability**: Buttons, Inputs, Layouts, Forms
+- ✍️ **Rich Text Editor**: For post creation/editing (RTE)
+- 📃 **Post Management**: Create, display, and list blog posts
+- 🖼️ **Responsive UI**: Clean, responsive design with reusable layouts
+- 🔗 **Appwrite Integration**: Backend API for user and content management
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🗂️ Project Structure
+
+```
+MEGA_PROJECT/
+├── appwrite/          # Appwrite configuration
+├── assets/            # Static files (images, icons, etc.)
+├──
